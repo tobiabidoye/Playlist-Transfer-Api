@@ -6,7 +6,7 @@ import com.example.PlaylistMigrator.model.User;
 
 @Repository
 public interface UserRepository extends MongoRepository <User,String>{
-
+    //userrepo to store history
     User findBySpotifyId(String spotifyUserId);
 }
 
